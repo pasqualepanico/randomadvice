@@ -1,0 +1,98 @@
+body{
+  background-color: hsl(218, 23%, 16%);
+
+}
+
+/* you can use also the selector: body div instead of .inner*/
+
+.inner{
+  background-color: hsl(217, 19%, 24%);
+  font-family: "Manrope";
+  font-weight: 800;
+  margin: 200px auto 0 auto;
+  width: 460px;
+}
+
+.inner p{
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 12px;
+  margin: 0;
+  padding: 36px 0;
+}
+
+.message{
+  color: hsl(193, 38%, 86%);
+  display: inline-block;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin: auto;
+  height: 100%;
+
+}
+
+.inner .line-divider{
+  display: inline-block;
+  margin-left: 8px;
+  padding: 30px 0;
+
+}
+
+.dice{
+  background-color: hsl(150, 100%, 66%);
+  display:inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+
+  position: relative;
+  top:30px;
+  left:202px;
+}
+
+.pic-dice{
+  position: relative;
+  top: 18px;
+  left: 18px;
+
+}
+
+.number{
+  color: hsl(150, 100%, 66%);
+  display: inline;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 12px;
+  margin: 0;
+
+}
+
+.dice:hover{
+  box-shadow: 0 0 15px 15px hsl(193, 38%, 86%);
+   
+}
+
+/* Mobile design */
+
+@media only screen and (max-width: 600px){
+
+  .inner{
+    margin: 120px auto 0 auto;
+    padding: 0 20px;
+    width: 320px;
+  }
+
+  .inner .line-divider{
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .dice{
+    position: relative;
+    left: 112px;
+  }
+
+}
